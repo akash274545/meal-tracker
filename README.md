@@ -150,6 +150,8 @@ firebase deploy
 The application will be updated on the Firebase Hosting URL.
 
 🔄 Development Workflow
+```text
+
 Code Changes
      ↓
 Test Locally
@@ -167,36 +169,39 @@ git commit
 git push
      ↓
 GitHub Updated
-📋 Project Highlights
-🔐 Google Authentication
-👤 Individual user data management
-🆔 Firebase UID-based database access
-🔒 Secure Realtime Database Rules
-🍱 Daily meal management
-📅 Monthly meal overview
-💰 Monthly fee tracking
-💳 Payment tracking
-☁️ Firebase Cloud Hosting
-🐙 GitHub version control
-🚀 Future Improvements
+```
+## 📋 Project Highlights
+- 🔐 Google Authentication
+- 👤 Individual user data management
+- 🆔 Firebase UID-based database access
+- 🔒 Secure Realtime Database Rules
+- 🍱 Daily meal management
+- 📅 Monthly meal overview
+- 💰 Monthly fee tracking
+- 💳 Payment tracking
+- ☁️ Firebase Cloud Hosting
+- 🐙 GitHub version control
+
+## 🚀 Future Improvements
 
 Possible future improvements include:
 
-📱 Progressive Web App (PWA) support
-📊 Advanced monthly and yearly statistics
-📈 Graphical meal reports
-🔔 Meal reminders
-📧 Automated reports
-📄 PDF/Excel report generation
-👥 Admin dashboard
-🎨 Further UI/UX improvements
-👨‍💻 Author
+- 📱 Progressive Web App (PWA) support
+- 📊 Advanced monthly and yearly statistics
+- 📈 Graphical meal reports
+- 🔔 Meal reminders
+- 📧 Automated reports
+- 📄 PDF/Excel report generation
+- 👥 Admin dashboard
+- 🎨 Further UI/UX improvements
 
-Akash Narayankar
+## 👨‍💻 Author
+
+**Akash Narayankar**
 
 B.Tech – Information Technology
 M.Tech – Computer Engineering
 
-📄 License
+## 📄 License
 
 This project is developed for personal and educational use.
