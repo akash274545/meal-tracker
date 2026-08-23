@@ -31,10 +31,10 @@ Each authenticated user can access only their own data.
 - 💰 Monthly Fee Tracking
 - 💳 Payment Tracking
 - 📊 Meals Taken & Remaining
-- 🚫 Sunday Meal Off support
+- 🚫 Sunday Meal Off Support
 - 🔒 Firebase Realtime Database Security Rules
-- 📱 Responsive web application
-- ☁️ Firebase Hosting deployment
+- 📱 Responsive Web Application
+- ☁️ Firebase Hosting Deployment
 
 ---
 
@@ -93,7 +93,7 @@ Users cannot access another user's data.
 
 Database access is controlled using the authenticated user's Firebase UID.
 
-Note: Firebase Web configuration values used by the frontend are not treated as private credentials. Sensitive service-account/private-key files must never be committed to the repository.
+Security Note: Firebase Web configuration values used by the frontend are not treated as private credentials. Sensitive service-account files, private keys, and other secret credentials must never be committed to the repository.
 
 🗂️ Project Structure
 meal-tracker/
@@ -117,13 +117,13 @@ meal-tracker/
 ├── README.md
 └── vite.config.js
 🚀 Run The Project Locally
-1. Clone the repository
+1. Clone the Repository
 git clone https://github.com/akash274545/meal-tracker.git
-2. Navigate to the project directory
+2. Navigate to the Project Directory
 cd meal-tracker
-3. Install dependencies
+3. Install Dependencies
 npm install
-4. Start the development server
+4. Start the Development Server
 npm run dev
 
 The application will start using the Vite development server.
@@ -139,7 +139,7 @@ The production files will be generated inside:
 dist/
 ☁️ Firebase Deployment
 
-After making changes to the application:
+After making changes to the application, create a production build:
 
 npm run build
 
@@ -168,15 +168,16 @@ git push
      ↓
 GitHub Updated
 📋 Project Highlights
-User authentication through Google
-Individual user data management
-Firebase UID-based database access
-Secure Realtime Database rules
-Daily meal management
-Monthly meal overview
-Payment tracking
-Firebase cloud hosting
-GitHub version control
+🔐 Google Authentication
+👤 Individual user data management
+🆔 Firebase UID-based database access
+🔒 Secure Realtime Database Rules
+🍱 Daily meal management
+📅 Monthly meal overview
+💰 Monthly fee tracking
+💳 Payment tracking
+☁️ Firebase Cloud Hosting
+🐙 GitHub version control
 🚀 Future Improvements
 
 Possible future improvements include:
